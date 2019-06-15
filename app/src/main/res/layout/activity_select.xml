@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:orientation="vertical"
+    tools:context=".SelectActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/select_title_padding"
+        android:text="@string/select_title"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/select_title_text" />
+
+        <LinearLayout
+            android:id="@+id/pass_1"
+            android:onClick="toPass"
+            style="@style/select">
+
+            <TextView
+
+                style="@style/select_pass_name"
+                android:text="拯救第一步" />
+
+            <TextView
+                android:id="@+id/pass1_step"
+                style="@style/select_pass_step" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pass_2"
+            android:onClick="toPass"
+            style="@style/select">
+
+            <TextView
+                style="@style/select_pass_name"
+                android:text="拯救第二步" />
+
+            <TextView
+                android:id="@+id/pass2_step"
+                style="@style/select_pass_step" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pass_3"
+            android:onClick="toPass"
+            style="@style/select">
+
+            <TextView
+                style="@style/select_pass_name"
+                android:text="拯救第三步" />
+
+            <TextView
+                android:id="@+id/pass3_step"
+                style="@style/select_pass_step" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pass_4"
+            android:onClick="toPass"
+            style="@style/select">
+
+            <TextView
+                style="@style/select_pass_name"
+                android:text="拯救第四步" />
+
+            <TextView
+                android:id="@+id/pass4_step"
+                style="@style/select_pass_step" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pass_5"
+            android:onClick="toPass"
+            style="@style/select">
+
+            <TextView
+                style="@style/select_pass_name"
+                android:text="拯救第五步" />
+
+            <TextView
+                android:id="@+id/pass5_step"
+                style="@style/select_pass_step" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pass_6"
+            android:onClick="toPass"
+            style="@style/select">
+
+            <TextView
+                style="@style/select_pass_name"
+                android:text="拯救第六步" />
+
+            <TextView
+                android:id="@+id/pass6_step"
+                style="@style/select_pass_step" />
+
+        </LinearLayout>
+</LinearLayout>

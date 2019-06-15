@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">拯救皮卡丘</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_title">选择关卡</string>
+    <string name="game_pass_title">关卡：</string>
+    <string name="game_step_title">步数：</string>
+    <string name="game_area_exit">出口</string>
+    <string name="select_step_title">步数：</string>
+    <string name="main_game_name">拯救救皮卡丘</string>
+</resources>
